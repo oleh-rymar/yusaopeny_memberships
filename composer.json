@@ -29,6 +29,9 @@
         "patches": {
             "openy/commerce_addon": {
                 "Support Drupal 9 - issue 3139887": "https://www.drupal.org/files/issues/2020-05-23/commerce_addon.1.x-dev.rector.patch"
+            },
+            "drupal/commerce_cart_api": {
+                "Issue #3607934: Fatal error, FieldNormalizer::normalize() incompatible with ListNormalizer::normalize() on Drupal core 11.4.0": "https://www.drupal.org/files/issues/2026-07-03/commerce_cart_api-drupal-11.4-normalizer-return-types.patch"
             }
         },
         "enable-patching": true
